@@ -20,54 +20,90 @@
           <h2 class='center'>Simple Geoscience Search</h2>
 	</p>
 
-        <p class="view"><a href="https://github.com/rbhughes/LogicalCat">View the Project on GitHub <small>rbhughes/LogicalCat</small></a></p>
 
+	<hr>
+	<ul>
+	  <li><a href="https://github.com/rbhughes/lc_epf_crawlers/wiki">E&P Files</a></li>
+	  <li><a href="https://github.com/rbhughes/lc_dox_crawlers/wiki">Business Documents</a></li>
+	  <li><a href="https://github.com/rbhughes/lc_pet_crawlers/wiki">IHS PETRA</a></li>
+	  <li><a href="https://github.com/rbhughes/lc_tks_crawlers/wiki">IHS Kingdom Suite</a></li>
+	  <li><a href="https://github.com/rbhughes/lc_ggx_crawlers/wiki">LMKR GeoGraphix Discovery</a></li>
+	  <li><a href="https://github.com/rbhughes/lc_pdm_crawlers/wiki">PPDM</a></li>
+	</ul>
+	<hr>
+	<br>
 
-        <ul>
-	  <li><img src="https://s3.amazonaws.com/logicalcat-images/ears.png" alt="LogicalCat" width="30px" ></li>
-	  <li></span><a href="https://github.com/rbhughes/LogicalCat/zipball/master">LogicalCat Demo (document parsing)</a></li>
-          <!--<li><a href="https://github.com/rbhughes/LogicalCat/tarball/master">Download <strong>TAR Ball</strong></a></li>
-	  <li><a href="https://github.com/rbhughes/LogicalCat">View On <strong>GitHub</strong></a></li>-->
-        </ul>
+	<div class="download"><a href="https://github.com/rbhughes/LogicalCat/zipball/master"><img src="https://s3.amazonaws.com/logicalcat-images/down_arrow.png" alt="LogicalCat" height="32px" >&nbsp Free Demo (biz docs)</a></div>
 
       </header>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to LogicalCat!</h3>
 
-<p>LogicalCat LLC was founded in 2008 to solve the problem of messy geoscience data at Energy Exploration and Production Companies. We believe that traditional data management schemes at E&P companies relying on tedious naming conventions or single-vendor solutions are outdated and that Search is an elegant solution to dealing with chaos.</p>
+        <h3>Welcome to LogicalCat!</h3>
+	<p>LogicalCat LLC was founded in 2008 to solve the problem of messy geoscience data at Energy Exploration and Production Companies. We believe that traditional data management schemes at E&P companies relying on tedious naming conventions or single-vendor solutions are outdated and that Search is an elegant solution to dealing with chaos.</p>
 
+
+        <h3>What's this all about?</h3>
+	<p>LogicalCat is a browser-based, vendor-neutral search engine for projects and data commonly used by geologists and engineers in upstream exploration. You can crawl your intranet and index data within files and project databases. For example, search for a UWI and you might get "hits" from a bunch of LAS files and a few Discovery project databases. It's like Google for stuff geotechs struggle with every day.</p>
+<img src="https://s3.amazonaws.com/logicalcat-images/screencap.png" alt="LogicalCat" >
+        <br>
+        <br>
+
+
+        <h3>Some things you might use it for:</h3>
+	<dl>
+	  <dt>Locate Assets</dt>
+	  <dd>Where are those LAS files? What are the top 10 most active GeoGraphix projects? How many duplicate SEGY files do we have? Now you can know. Instantly.</dd>
+
+	  <dt>Start and Maintain Data Management </dt>
+	  <dd>There is no shortage of structured data management practices and procedures for the E&P Industry. LogicalCat can help you take that first <em>vendor neutral</em> step toward getting and staying organized.</dd>
+
+	  <dt>Mergers and Acquisitions</dt>
+	  <dd>LogicalCat can serve as your rapid reconnaissance tool. Selling? Use it to prepare a data room for your asset sale or help you discern proprietary from vendor data. Buying? Quickly discover interpretation boundaries or which projects need upgrading.</dd>
+
+	  <dt>IT Operations</dt>
+	  <dd>Non-geoscientists can objectively gauge which projects are the most active and plan backups and disaster recovery accordingly. Old projects can be safely archived while still retaining full metadata of their contents. Disk usage can be allocated fairly among business units.</dd>
+
+	</dl>
+
+        <h3>Try out the Free Demo</h3>
+
+	<p>The demo includes only the "Business Documents" crawler. There's nothing particularly E&P-centric about it, but it should give you a pretty good idea of how LogicalCat works. This crawler is basically a web-app GUI for the fantastic Apache <a href="http://tika.apache.org">Tika</a> project's content analysis toolkit. Enjoy!</p> 
+
+
+        <h3>Contact</h3>
+	<div id="contact">
+	  <a href="mailto:info@logicalcat.com">info@logicalcat.com</a><span class="right">303-949-8125</span>
+        </div>
+
+
+        <h3>Software Requirements</h3>
+	<ul>
+	  <li>Windows 7 or 8, 64-bit (32-bit is an option too)</li>
+	  <li>A reasonably modern browser: Firefox, Chrome, Internet Explorer 10+</li>
+	  <li>The installer needs admin rights and will write to: <code>c:\logicalcat</code></li>
+	  <li>You will likely want to use a custom account or your own login for the Windows Service running the crawl (the installer will prompt you)</li>
+	  <li>Ports used: 8008, 9200, 9300</li>
+	  <li>License server? No! We hate license servers</li>
+	</ul>
+
+<!--
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
+-->
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+	
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
+
       <footer>
-        <p>This project is maintained by <a href="https://github.com/rbhughes">rbhughes</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on GitHub Pages | Trademarks property of their respective owners | Copyright © 2013 LogicalCat LLC</small></p>
       </footer>
+
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
